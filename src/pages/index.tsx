@@ -587,7 +587,7 @@ export default function Home() {
       </div>
       <div className="h-full w-full bg-white px-[140px] py-[200px] pt-[280px]">
         <div className="flex flex-col gap-y-8">
-          <div className="font-montserrat text-xl font-bold leading-normal text-[#233659]">
+          <div className="font-montserrat text-4xl font-bold leading-normal text-[#233659]">
             Diliput oleh
           </div>
           <div className="m-4 grid grid-cols-5">
