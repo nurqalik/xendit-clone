@@ -47,10 +47,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex w-1/2 items-center justify-center">
+          <div className="w-1/2">
             <motion.svg
-              width="600"
-              height="600"
+              width="500"
+              height="500"
               viewBox="0 0 600 600"
               initial="hidden"
               animate="visible"
@@ -587,7 +587,7 @@ export default function Home() {
       </div>
       <div className="h-full w-full bg-white px-[140px] py-[200px] pt-[280px]">
         <div className="flex flex-col gap-y-8">
-          <div className="font-montserrat text-4xl font-bold leading-normal text-[#233659]">
+          <div className="font-montserrat text-xl font-bold leading-normal text-[#233659]">
             Diliput oleh
           </div>
           <div className="m-4 grid grid-cols-5">
