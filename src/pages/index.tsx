@@ -26,22 +26,22 @@ export default function Home() {
       <div className="h-full w-full bg-gradient-to-r from-[#457EF3] to-[#32A9C4] px-[140px] pb-28 pt-[140px]">
         <div className="flex flex-row">
           <div className="w-1/2">
-            <div className="flex max-w-xl flex-col gap-y-4 text-white">
-              <div className="font-montserrat text-6xl font-bold leading-tight">
+            <div className="flex max-w-lg flex-col gap-y-4 text-white">
+              <div className="max-w-md font-montserrat text-5xl font-bold leading-tight">
                 Payment gateway terbaik & terlengkap di Indonesia untuk bisnis
                 Anda
               </div>
-              <div className="font-roboto text-lg font-medium">
+              <div className="font-roboto text-base font-medium">
                 Dengan satu integrasi, bisnis Anda bisa menerima dan mengirim
                 pembayaran dengan mudah di Indonesia. Terima pembayaran dari
                 kartu kredit dan debit, e-wallet, transfer bank, dan banyak
                 metode pembayaran lainnya.
               </div>
               <div className="my-8 flex flex-row gap-x-2">
-                <button className="rounded-lg bg-[#456EF3] px-12 py-[12px] text-lg shadow-md duration-300 ease-linear hover:scale-95 hover:bg-[#457EF3] hover:transition-all">
+                <button className="rounded-md bg-[#456EF3] px-6 py-[10px] text-lg shadow-md duration-300 ease-linear hover:scale-95 hover:bg-[#457EF3] hover:transition-all">
                   Daftar Sekarang
                 </button>
-                <button className="rounded-lg bg-white px-12 py-[12px] text-lg text-[#456EF3] shadow-md duration-300 ease-linear hover:scale-95 hover:text-[#457EF3] hover:transition-all">
+                <button className="rounded-md bg-white px-6 py-[10px] text-lg text-[#456EF3] shadow-md duration-300 ease-linear hover:scale-95 hover:text-[#457EF3] hover:transition-all">
                   Hubungi Sales
                 </button>
               </div>
@@ -324,18 +324,18 @@ export default function Home() {
       </div>
       <div className="h-full w-full bg-white px-[140px] pt-[280px]">
         <div className="flex flex-col gap-y-8">
-          <div className="font-montserrat text-5xl font-bold leading-normal text-[#233659]">
+          <div className="max-w-5xl font-montserrat text-4xl font-extrabold leading-normal text-[#233659]">
             Payment Gateway yang dibangun khusus untuk Indonesia dan Asia
             Tenggara
           </div>
-          <p className="font-roboto text-base font-light tracking-widest text-black">
+          <p className="font-roboto text-base font-light tracking-wide text-black">
             Xendit adalah payment gateway yang membantu bisnis untuk menerima
             pembayaran dengan sederhana, aman dan mudah bagi semua orang. Kami
             memproses jutaan transaksi setiap bulannya untuk membantu
             perkembangan bisnis dengan menyediakan API kelas dunia.
           </p>
           <div className="flex flex-row items-center justify-center gap-x-12">
-            <div className="h-[580px] w-auto max-w-sm rounded-lg shadow-2xl">
+            <div className="h-[580px] w-[347px] max-w-sm rounded-lg shadow-2xl">
               <div className="m-12 flex flex-col items-start justify-start gap-y-6">
                 <img
                   decoding="async"
@@ -345,10 +345,10 @@ export default function Home() {
                   className="attachment-full size-full wp-image-8429"
                   alt=""
                 />
-                <div className="font-montserrat text-2xl font-bold text-[#233659]">
+                <div className="font-montserrat text-xl font-bold text-[#233659]">
                   Integrasi sederhana
                 </div>
-                <p className="font-roboto text-base font-light">
+                <p className="font-roboto text-sm leading-normal">
                   Integrasi mudah antara bisnis anda dengan payment gateway
                   kami. Xendit menyediakan banyak pilihan integrasi: Payment
                   link, integrasi eCommerce atau integrasi API. Cukup dengan
@@ -367,10 +367,10 @@ export default function Home() {
                   className="attachment-full size-full wp-image-8429"
                   alt=""
                 />
-                <div className="font-montserrat text-2xl font-bold text-[#233659]">
+                <div className="font-montserrat text-xl font-bold text-[#233659]">
                   Kecepatan
                 </div>
-                <p className="font-roboto text-base font-light">
+                <p className="font-roboto text-sm leading-normal">
                   Anda dapat segera bertransaksi dengan Xendit melalui proses
                   integrasi yang cepat dan memerlukan waktu kurang dari satu
                   hari. Akses riwayat transaksi pada dashboard terpusat dengan
@@ -391,10 +391,10 @@ export default function Home() {
                   className="attachment-full size-full wp-image-8429"
                   alt=""
                 />
-                <div className="font-montserrat text-2xl font-bold text-[#233659]">
+                <div className="font-montserrat text-xl font-bold text-[#233659]">
                   Pelayanan
                 </div>
-                <p className="font-roboto text-base font-light">
+                <p className="font-roboto text-sm leading-normal">
                   Kami memahami kebutuhan Anda untuk layanan yang responsif dan
                   tepat waktu terkait masalah pembayaran. Tim kami siap membantu
                   Anda melalui live chat & email, 24/7.
@@ -406,7 +406,7 @@ export default function Home() {
       </div>
       <div className="h-full w-full bg-white px-[140px] pt-[280px]">
         <div className="flex flex-col gap-y-8">
-          <div className="font-montserrat text-5xl font-bold leading-normal text-[#233659]">
+          <div className="font-montserrat text-4xl font-bold leading-normal text-[#233659]">
             Solusi Kami
           </div>
           <p className="font-roboto text-base font-light tracking-widest text-black">
@@ -460,7 +460,7 @@ export default function Home() {
                     />
                   </div>
                   <div className="max-w-[300px] font-roboto text-base font-light">
-                    Terima ragam metode pembayaran, lokal dan internasional
+                  Terima pembayaran dengan membagikan link dan laman checkout
                   </div>
                 </div>
               </div>
@@ -482,7 +482,8 @@ export default function Home() {
                     />
                   </div>
                   <div className="max-w-[300px] font-roboto text-base font-light">
-                    Terima ragam metode pembayaran, lokal dan internasional
+                    Terima pembayaran dengan integrasi toko eCommerce dan banyak
+                    lagi
                   </div>
                 </div>
               </div>
@@ -577,7 +578,7 @@ export default function Home() {
                   className="transition delay-150 ease-in-out group-hover:translate-x-2 group-hover:duration-300"
                 />
               </div>
-              <div className="max-w-[300px] font-roboto text-base font-light">
+              <div className="w-full font-roboto text-base font-light">
                 Daftarkan mitra, terima dan bagikan pembayaran, kirim dana
               </div>
             </div>
@@ -586,7 +587,7 @@ export default function Home() {
       </div>
       <div className="h-full w-full bg-white px-[140px] py-[200px] pt-[280px]">
         <div className="flex flex-col gap-y-8">
-          <div className="font-montserrat text-5xl font-bold leading-normal text-[#233659]">
+          <div className="font-montserrat text-4xl font-bold leading-normal text-[#233659]">
             Diliput oleh
           </div>
           <div className="m-4 grid grid-cols-5">
@@ -610,24 +611,24 @@ export default function Home() {
       </div>
       <Footer />
       <div className="sticky bottom-4 z-[100] mr-4 flex items-center justify-end">
-      <button
-        type="button"
-        className="h-[45px] w-[100px] rounded-full bg-white shadow-lg absolute bottom-0"
-      >
-        <div className="flex flex-row items-center justify-center px-4 gap-x-2">
-          <svg
-            viewBox="10 6 40 40"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="DialogueNew" fill="currentColor">
-              <path d="M29.9996 39.3369H29.9996C28.9494 39.3228 27.9027 39.2117 26.873 39.0048C26.3867 38.9217 25.8882 39.0509 25.5034 39.3597C23.5353 40.8057 21.2244 41.714 18.7985 41.9951C18.3992 42.037 18.0415 41.7472 17.9997 41.3478C17.9817 41.1769 18.0249 41.0053 18.1214 40.8632H18.1214C19.059 39.6954 19.7322 38.3381 20.0947 36.885C20.1678 36.4882 20.0128 36.0839 19.6931 35.8378C16.1547 33.2089 14.0485 29.0767 14 24.6684C14 16.5773 21.1633 10 29.9996 10C38.8359 10 45.9992 16.5773 45.9992 24.6684C45.9992 32.7596 38.8361 39.3369 29.9996 39.3369H29.9996Z"></path>
-            </g>
-          </svg>
-          <span className="font-montserrat text-base font-bold">Chat</span>
-        </div>
-      </button>
-    </div>
+        <button
+          type="button"
+          className="absolute bottom-0 h-[45px] w-[100px] rounded-full bg-white shadow-lg"
+        >
+          <div className="flex flex-row items-center justify-center gap-x-2 px-4">
+            <svg
+              viewBox="10 6 40 40"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="DialogueNew" fill="currentColor">
+                <path d="M29.9996 39.3369H29.9996C28.9494 39.3228 27.9027 39.2117 26.873 39.0048C26.3867 38.9217 25.8882 39.0509 25.5034 39.3597C23.5353 40.8057 21.2244 41.714 18.7985 41.9951C18.3992 42.037 18.0415 41.7472 17.9997 41.3478C17.9817 41.1769 18.0249 41.0053 18.1214 40.8632H18.1214C19.059 39.6954 19.7322 38.3381 20.0947 36.885C20.1678 36.4882 20.0128 36.0839 19.6931 35.8378C16.1547 33.2089 14.0485 29.0767 14 24.6684C14 16.5773 21.1633 10 29.9996 10C38.8359 10 45.9992 16.5773 45.9992 24.6684C45.9992 32.7596 38.8361 39.3369 29.9996 39.3369H29.9996Z"></path>
+              </g>
+            </svg>
+            <span className="font-montserrat text-base font-bold">Chat</span>
+          </div>
+        </button>
+      </div>
     </div>
   );
 }

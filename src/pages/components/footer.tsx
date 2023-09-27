@@ -2,8 +2,8 @@ import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react"
 
 const Footer = () => {
   return (
-    <div className="relative bg-gradient-to-br from-[#3b89e7] to-[#00cf99] px-[140px] pt-[200px]">
-      <div className="absolute left-0 top-0 w-[100%] rotate-180 overflow-hidden leading-[0px]">
+    <div className="relative bg-gradient-to-br from-[#3b89e7] via-[#3a8ae6] to-[#00cf99] px-[140px] pt-[200px]">
+      <div className="absolute left-0 top-0 w-full rotate-180 overflow-hidden leading-[0px]">
         <svg
           data-name="Layer 1"
           xmlns="http://www.w3.org/2000/svg"
@@ -18,12 +18,12 @@ const Footer = () => {
         </svg>
       </div>
       <div className="flex flex-row">
-        <div className="flex max-w-lg flex-col gap-y-8 text-white">
+        <div className="flex max-w-sm flex-col gap-y-8 text-white">
           <img
             src="https://www.xendit.co/wp-content/uploads/2019/11/xendit-logo-white.svg"
             className="h-[47px] w-[165px]"
           />
-          <div className="font-bold0 font-montserrat text-xl">
+          <div className="font-bold font-montserrat text-xl">
             Membuat pembayaran menjadi mudah
           </div>
           <div className="flex flex-col gap-y-4">
@@ -33,131 +33,131 @@ const Footer = () => {
             <div className="flex flex-row items-center justify-start">
               <input
                 type="email"
-                className="rounded-l-lg p-4"
+                className="rounded-l-lg p-4 w-56"
                 placeholder="Alamat email"
               />
-              <button className="rounded-r-lg bg-[#4373fc] p-[18px] font-roboto text-sm font-bold text-white shadow-lg hover:scale-95 hover:shadow-xl hover:transition-all hover:duration-300">
+              <button className="rounded-r-lg bg-[#4373fc] p-[18px] font-roboto text-sm font-bold text-white shadow-2xl hover:scale-95 hover:shadow-xl hover:transition-all hover:duration-300">
                 Berlangganan
               </button>
             </div>
           </div>
         </div>
-        <div className="flex flex-col pl-24 text-white">
-          <div className="pb-6 font-montserrat text-lg font-bold">Produk</div>
-          <div className="flex w-44 flex-col gap-y-4">
-            <div className="font-montserrat text-base font-normal">
+        <div className="flex flex-col pl-16 text-white">
+          <div className="pb-4 font-montserrat text-lg font-bold">Produk</div>
+          <div className="flex w-44 flex-col gap-y-2">
+            <div className="font-montserrat text-sm font-normal">
               Pembayaran Online
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Checkout
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Express Checkout
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Integrasi
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Transfer uang otomatis
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Transfer uang sesuai permintaan
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Payload links
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Sistem Pembayaran untuk Platform
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Pendanaan
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Aplikasi Xendit Bisnis
             </div>
           </div>
         </div>
-        <div className="flex flex-col pl-4 text-white">
-          <div className="pb-6 font-montserrat text-lg font-bold">Solusi</div>
-          <div className="flex w-44 flex-col gap-y-4">
-            <div className="font-montserrat text-base font-normal">
+        <div className="flex flex-col pl-2 text-white">
+          <div className="pb-4 font-montserrat text-lg font-bold">Solusi</div>
+          <div className="flex w-44 flex-col gap-y-2">
+            <div className="font-montserrat text-sm font-normal">
               Asuransi
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Layanan Investasi
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Outsourcing
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Hospitality
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Marketplace
             </div>
           </div>
-          <div className="pb-6 pt-10 font-montserrat text-lg font-bold">
+          <div className="pb-4 pt-8 font-montserrat text-lg font-bold">
             Mulai Sekarang
           </div>
-          <div className="flex w-44 flex-col gap-y-4">
-            <div className="font-montserrat text-base font-normal">
+          <div className="flex w-44 flex-col gap-y-2">
+            <div className="font-montserrat text-sm font-normal">
               Kalkulator Harga
             </div>
-            <div className="font-montserrat text-base font-normal">Biaya</div>
+            <div className="font-montserrat text-sm font-normal">Biaya</div>
           </div>
         </div>
-        <div className="flex flex-col pl-4 text-white">
-          <div className="pb-6 font-montserrat text-lg font-bold">
+        <div className="flex flex-col text-white w-40">
+          <div className="pb-4 font-montserrat text-lg font-bold">
             Perusahaan
           </div>
-          <div className="flex w-44 flex-col gap-y-4">
-            <div className="font-montserrat text-base font-normal">
+          <div className="flex w-44 flex-col gap-y-2">
+            <div className="font-montserrat text-sm font-normal">
               Tenatang Kami
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Pelanggan Kami
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Studi Kasus
             </div>
-            <div className="font-montserrat text-base font-normal">Karir</div>
-            <div className="font-montserrat text-base font-normal">Events</div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">Karir</div>
+            <div className="font-montserrat text-sm font-normal">Events</div>
+            <div className="font-montserrat text-sm font-normal">
               Lisensi Kami
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Komunitas
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Newsroom
             </div>
-            <div className="font-montserrat text-base font-normal">Blog</div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">Blog</div>
+            <div className="font-montserrat text-sm font-normal">
               Lisensi Kami
             </div>
           </div>
         </div>
-        <div className="flex flex-col pl-4 text-white">
-          <div className="pb-6 font-montserrat text-lg font-bold">
+        <div className="flex flex-col text-white">
+          <div className="pb-4 font-montserrat text-lg font-bold">
             Pusat Bantuan
           </div>
-          <div className="flex w-44 flex-col gap-y-4">
-            <div className="font-montserrat text-base font-normal">
+          <div className="flex w-44 flex-col gap-y-2">
+            <div className="font-montserrat text-sm font-normal">
               Pusat Bantuan
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Dokumentasi
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Referensi API
             </div>
-            <div className="font-montserrat text-base font-normal">
+            <div className="font-montserrat text-sm font-normal">
               Kontak Kami
             </div>
           </div>
         </div>
       </div>
-      <hr className="mb-12 mt-6 w-full" />
+      <hr className="mb-12 mt-8 w-full" />
       <div className="flex flex-row justify-between">
         <div className="flex flex-col gap-y-4">
           <div className="mt-4 flex flex-row gap-x-4">
