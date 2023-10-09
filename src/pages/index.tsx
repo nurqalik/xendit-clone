@@ -23,21 +23,21 @@ export default function Home() {
   return (
     <div className="relative">
       <Navbar />
-      <div className="h-full w-full bg-gradient-to-r from-[#457EF3] to-[#32A9C4] px-[140px] pb-28 pt-[140px]">
-        <div className="flex flex-row">
-          <div className="w-1/2">
-            <div className="flex max-w-lg flex-col gap-y-4 text-white">
-              <div className="max-w-md font-montserrat text-5xl font-bold leading-tight">
+      <div className="h-full w-full bg-gradient-to-r from-[#457EF3] to-[#32A9C4] px-4 md:px-[140px] pb-8 md:pb-28 pt-[140px]">
+        <div className="flex flex-col md:flex-row">
+          <div className="md:w-1/2">
+            <div className="flex md:max-w-lg flex-col gap-y-4 text-white">
+              <div className="md:max-w-md font-montserrat text-3xl md:text-5xl font-bold leading-tight">
                 Payment gateway terbaik & terlengkap di Indonesia untuk bisnis
                 Anda
               </div>
-              <div className="font-roboto text-base font-medium">
+              <div className="font-roboto text-sm md:font-medium leading-loose md:leading-none tracking-wider md:tracking-normal">
                 Dengan satu integrasi, bisnis Anda bisa menerima dan mengirim
                 pembayaran dengan mudah di Indonesia. Terima pembayaran dari
                 kartu kredit dan debit, e-wallet, transfer bank, dan banyak
                 metode pembayaran lainnya.
               </div>
-              <div className="my-8 flex flex-row gap-x-2">
+              <div className="my-8 flex flex-col md:flex-row gap-y-6 gap-x-2">
                 <button className="rounded-md bg-[#456EF3] px-6 py-[10px] text-lg shadow-md duration-300 ease-linear hover:scale-95 hover:bg-[#457EF3] hover:transition-all">
                   Daftar Sekarang
                 </button>
@@ -47,10 +47,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="w-1/2">
+          <div className="md:w-1/2">
             <motion.svg
-              width="500"
-              height="500"
+              width="400 md:500"
+              height="400 md:500"
               viewBox="0 0 600 600"
               initial="hidden"
               animate="visible"
@@ -180,7 +180,7 @@ export default function Home() {
         </div>
       </div>
       <div className="relative">
-        <div className="absolute bottom-0 left-0 w-[100%] overflow-hidden leading-[0px]">
+        <div className="absolute -bottom-6 md:bottom-0 left-0 w-[100%] overflow-hidden leading-[0px]">
           <svg
             data-name="Layer 1"
             xmlns="http://www.w3.org/2000/svg"
@@ -195,8 +195,8 @@ export default function Home() {
           </svg>
         </div>
       </div>
-      <div className="h-full w-full bg-white px-[140px] pt-[280px]">
-        <div className="grid grid-cols-5 grid-rows-3 items-center justify-center gap-x-12 gap-y-8">
+      <div className="h-full w-full bg-white md:px-[140px] pt-16 md:pt-[280px]">
+        <div className="grid grid-cols-3 md:grid-cols-5 grid-rows-5 px-4 md:px-0 md:grid-rows-3 items-center justify-center gap-x-6 gap-y-6">
           <a href="#">
             <img
               decoding="async"
@@ -289,42 +289,42 @@ export default function Home() {
           </a>
         </div>
       </div>
-      <div className="h-full w-full bg-white px-[140px] pt-[280px]">
+      <div className="h-full w-full bg-white px-4 md:px-[140px] pt-24 md:pt-[280px]">
         <div className="flex flex-col">
-          <div className="mb-12 font-montserrat text-4xl font-bold text-[#233659]">
+          <div className="mb-12 font-montserrat text-3xl md:text-4xl font-bold text-[#233659]">
             Penghargaan
           </div>
-          <div className="flex flex-row gap-x-8">
-            <div className="flex h-[135px] w-[300px] items-center justify-center rounded-xl shadow-2xl">
+          <div className="grid grid-cols-2 grid-rows-2 md:flex md:flex-row gap-x-4 md:gap-x-8">
+            <div className="flex h-24 w-auto md:h-[135px] md:w-[300px] items-center justify-center rounded-xl shadow-2xl">
               <img
                 src="https://www.xendit.co/wp-content/uploads/2023/09/logo-seamless-awards-2017-300x135-1.webp"
-                className="p-8"
+                className="p-2 md:p-8"
               />
             </div>
-            <div className="flex h-[135px] w-[300px] items-center justify-center rounded-xl shadow-2xl">
+            <div className="flex h-24 w-auto md:h-[135px] md:w-[300px] items-center justify-center rounded-xl shadow-2xl">
               <img
                 src="https://www.xendit.co/wp-content/uploads/2023/09/logo-the-asian-banker-300x135-1.webp"
-                className="p-8"
+                className="p-2 md:p-8"
               />
             </div>
-            <div className="flex h-[135px] w-[300px] items-center justify-center rounded-xl shadow-2xl">
+            <div className="flex h-24 w-auto md:h-[135px] md:w-[300px] items-center justify-center rounded-xl shadow-2xl">
               <img
                 src="https://www.xendit.co/wp-content/uploads/2023/09/logo-forbers-30-under-30-300x135-1.webp"
-                className="p-8"
+                className="p-2 md:p-8"
               />
             </div>
-            <div className="flex h-[135px] w-[300px] items-center justify-center rounded-xl shadow-2xl">
+            <div className="flex h-24 w-auto md:h-[135px] md:w-[300px] items-center justify-center rounded-xl shadow-2xl">
               <img
                 src="https://www.xendit.co/wp-content/uploads/2023/09/logo-cnbc-upstart100-300x135-1.webp"
-                className="p-8"
+                className="p-2 md:p-8"
               />
             </div>
           </div>
         </div>
       </div>
-      <div className="h-full w-full bg-white px-[140px] pt-[280px]">
+      <div className="h-full w-full bg-white px-4 md:px-[140px] pt-24 md:pt-[280px]">
         <div className="flex flex-col gap-y-8">
-          <div className="max-w-5xl font-montserrat text-4xl font-extrabold leading-normal text-[#233659]">
+          <div className="md:max-w-5xl font-montserrat text-2xl md:text-4xl font-extrabold md:leading-normal text-[#233659]">
             Payment Gateway yang dibangun khusus untuk Indonesia dan Asia
             Tenggara
           </div>
@@ -334,9 +334,9 @@ export default function Home() {
             memproses jutaan transaksi setiap bulannya untuk membantu
             perkembangan bisnis dengan menyediakan API kelas dunia.
           </p>
-          <div className="flex flex-row items-center justify-center gap-x-12">
-            <div className="h-[580px] w-[347px] max-w-sm rounded-lg shadow-2xl">
-              <div className="m-12 flex flex-col items-start justify-start gap-y-6">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-y-12 gap-x-12">
+            <div className="h-full md:h-[580px] md:w-[347px] md:max-w-sm md:rounded-lg md:shadow-2xl">
+              <div className="md:m-12 flex flex-col items-start justify-start gap-y-6">
                 <img
                   decoding="async"
                   width="80px"
@@ -348,7 +348,7 @@ export default function Home() {
                 <div className="font-montserrat text-xl font-bold text-[#233659]">
                   Integrasi sederhana
                 </div>
-                <p className="font-roboto text-sm leading-normal">
+                <p className="font-roboto text-base md:text-sm font-light md:font-normal leading-normal">
                   Integrasi mudah antara bisnis anda dengan payment gateway
                   kami. Xendit menyediakan banyak pilihan integrasi: Payment
                   link, integrasi eCommerce atau integrasi API. Cukup dengan
@@ -357,8 +357,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="h-[580px] w-[347px] max-w-sm rounded-lg shadow-2xl">
-              <div className="m-12 flex flex-col items-start justify-start gap-y-6">
+            <div className="h-full md:h-[580px] md:w-[347px] md:max-w-sm md:rounded-lg md:shadow-2xl">
+            <div className="md:m-12 flex flex-col items-start justify-start gap-y-6">
                 <img
                   decoding="async"
                   width="80px"
@@ -370,7 +370,7 @@ export default function Home() {
                 <div className="font-montserrat text-xl font-bold text-[#233659]">
                   Kecepatan
                 </div>
-                <p className="font-roboto text-sm leading-normal">
+                <p className="font-roboto text-base md:text-sm font-light md:font-normal leading-normal">
                   Anda dapat segera bertransaksi dengan Xendit melalui proses
                   integrasi yang cepat dan memerlukan waktu kurang dari satu
                   hari. Akses riwayat transaksi pada dashboard terpusat dengan
@@ -381,8 +381,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="h-[580px] w-[347px] max-w-sm rounded-lg shadow-2xl">
-              <div className="m-12 flex flex-col items-start justify-start gap-y-6">
+            <div className="h-full md:h-[580px] md:w-[347px] md:max-w-sm md:rounded-lg md:shadow-2xl">
+            <div className="md:m-12 flex flex-col items-start justify-start gap-y-6">
                 <img
                   decoding="async"
                   width="80px"
@@ -394,7 +394,7 @@ export default function Home() {
                 <div className="font-montserrat text-xl font-bold text-[#233659]">
                   Pelayanan
                 </div>
-                <p className="font-roboto text-sm leading-normal">
+                <p className="font-roboto text-base md:text-sm font-light md:font-normal md:tracking-wide tracking-normal leading-normal">
                   Kami memahami kebutuhan Anda untuk layanan yang responsif dan
                   tepat waktu terkait masalah pembayaran. Tim kami siap membantu
                   Anda melalui live chat & email, 24/7.
@@ -404,29 +404,29 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="h-full w-full bg-white px-[140px] pt-[280px]">
-        <div className="flex flex-col gap-y-8">
-          <div className="font-montserrat text-4xl font-bold leading-normal text-[#233659]">
+      <div className="h-full w-full bg-white px-4 md:px-[140px] pt-24 md:pt-[280px]">
+        <div className="flex flex-col gap-y-4 md:gap-y-8">
+          <div className="font-montserrat text-3xl md:text-4xl font-bold leading-normal text-[#233659]">
             Solusi Kami
           </div>
-          <p className="font-roboto text-base font-light tracking-widest text-black">
+          <p className="font-roboto text-base font-light tracking-wider md:tracking-widest leading-relaxed text-black">
             Kami siap membantu menyediakan layanan payment gateway dan solusi
             terlengkap untuk kebutuhan pembayaran online Anda, sehingga Anda
             dapat fokus pada pertumbuhan bisnis Anda.
           </p>
-          <div className="grid grid-cols-2 gap-x-8">
-            <div className="flex max-w-xl flex-col rounded-xl shadow-2xl">
+          <div className="grid md:grid-cols-2 gap-y-8 gap-x-8 pt-4 md:pt-0">
+            <div className="flex md:max-w-xl flex-col rounded-xl shadow-2xl">
               <div className="h-full w-full rounded-t-xl bg-[#00cf99]">
-                <div className="m-12 font-montserrat text-2xl font-bold text-white">
+              <div className="m-4 md:m-12 font-montserrat text-lg md:text-2xl font-semibold md:font-bold text-white">
                   Terima Pembayaran
                 </div>
               </div>
-              <div className="flex flex-row bg-white p-12">
+              <div className="flex flex-row bg-white p-8 md:p-12">
                 <img
                   src="https://www.xendit.co/wp-content/uploads/2019/11/icon-xenpayments-1.svg"
-                  className="mr-6 h-[62.5px] w-[62.5px]"
+                  className="mr-6 h-[62.5px] w-[62.5px] hidden md:flex"
                 />
-                <div className="flex flex-col gap-y-4">
+                <div className="flex flex-col gap-y-2 md:gap-y-4">
                   <div className="group flex flex-row items-center justify-start gap-x-4 text-[#00cf99]">
                     <div className="font-montserrat text-xl font-normal">
                       Pembayaran Online
@@ -443,12 +443,12 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="flex flex-row bg-white p-12">
+              <div className="flex flex-row bg-white p-8 md:p-12">
                 <img
                   src="https://www.xendit.co/wp-content/uploads/2019/11/icon-xeninvoice-1.svg"
-                  className="mr-6 h-[62.5px] w-[62.5px]"
+                  className="mr-6 h-[62.5px] w-[62.5px] hidden md:flex"
                 />
-                <div className="flex flex-col gap-y-4">
+                <div className="flex flex-col gap-y-2 md:gap-y-4">
                   <div className="group flex flex-row items-center justify-start gap-x-4 text-[#00cf99]">
                     <div className="font-montserrat text-xl font-normal">
                       Checkout
@@ -465,12 +465,12 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="flex flex-row rounded-b-xl bg-white p-12">
+              <div className="flex flex-row bg-white rounded-b-xl p-8 md:p-12">
                 <img
                   src="https://www.xendit.co/wp-content/uploads/2019/11/icon-xenintegrations-1.svg"
-                  className="mr-6 h-[62.5px] w-[62.5px]"
+                  className="mr-6 h-[62.5px] w-[62.5px] hidden md:flex"
                 />
-                <div className="flex flex-col gap-y-4">
+                <div className="flex flex-col gap-y-2 md:gap-y-4">
                   <div className="group flex flex-row items-center justify-start gap-x-4 text-[#00adf2]">
                     <div className="font-montserrat text-xl font-normal">
                       Integrasi
@@ -490,16 +490,16 @@ export default function Home() {
             </div>
             <div className="flex max-w-xl flex-col rounded-xl shadow-2xl">
               <div className="h-full w-full rounded-t-xl bg-[#d4525d]">
-                <div className="m-12 font-montserrat text-2xl font-bold text-white">
+              <div className="m-4 md:m-12 font-montserrat text-lg md:text-2xl font-semibold md:font-bold text-white">
                   Kirim Uang
                 </div>
               </div>
-              <div className="flex flex-row bg-white p-12">
+              <div className="flex flex-row bg-white p-8 md:p-12">
                 <img
                   src="https://www.xendit.co/wp-content/uploads/2019/11/icon-xendisburse-1.svg"
-                  className="mr-6 h-[62.5px] w-[62.5px]"
+                  className="mr-6 h-[62.5px] w-[62.5px] hidden md:flex"
                 />
-                <div className="flex flex-col gap-y-4">
+                <div className="flex flex-col gap-y-2 md:gap-y-4">
                   <div className="group flex flex-row items-center justify-start gap-x-4 text-[#d4525d]">
                     <div className="font-montserrat text-xl font-normal">
                       Transfer Otomatis
@@ -516,12 +516,12 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="flex flex-row bg-white p-12">
+              <div className="flex flex-row bg-white p-8 md:p-12">
                 <img
                   src="https://www.xendit.co/wp-content/uploads/2019/11/icon-xenbatch-2.svg"
-                  className="mr-6 h-[62.5px] w-[62.5px]"
+                  className="mr-6 h-[62.5px] w-[62.5px] hidden md:flex"
                 />
-                <div className="flex flex-col gap-y-4">
+                <div className="flex flex-col gap-y-2 md:gap-y-4">
                   <div className="group flex flex-row items-center justify-start gap-x-4 text-[#d4525d]">
                     <div className="font-montserrat text-xl font-normal">
                       Transfer Massal
@@ -538,12 +538,12 @@ export default function Home() {
                 </div>
               </div>
               <hr />
-              <div className="flex flex-row rounded-b-xl bg-white p-12">
+              <div className="flex flex-row bg-white rounded-b-xl p-8 md:p-12">
                 <img
                   src="https://www.xendit.co/wp-content/uploads/2019/11/icon-xenpayout-1.svg"
-                  className="mr-6 h-[62.5px] w-[62.5px]"
+                  className="mr-6 h-[62.5px] w-[62.5px] hidden md:flex"
                 />
-                <div className="flex flex-col gap-y-4">
+                <div className="flex flex-col gap-y-2 md:gap-y-4">
                   <div className="group flex flex-row items-center justify-start gap-x-4 text-[#d4525d]">
                     <div className="font-montserrat text-xl font-normal">
                       Kirim Refund
@@ -562,12 +562,17 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-row rounded-xl bg-white p-12 shadow-2xl">
+          <div className="md:hidden flex h-full w-full rounded-t-xl bg-[#3A8AE6] mt-4 md:mt-0">
+              <div className="m-4 md:m-12 font-montserrat text-lg md:text-2xl font-semibold md:font-bold text-white">
+                  Operasional Bisnis
+              </div>
+            </div>
+          <div className="flex flex-row bg-white rounded-t-xl rounded-b-xl shadow-2xl p-8 pt-4 md:pt-12 md:p-12">
             <img
               src="https://www.xendit.co/wp-content/uploads/2019/11/icon-xenplatform-1.svg"
-              className="mr-6 h-[62.5px] w-[62.5px]"
+              className="mr-6 h-[62.5px] w-[62.5px] hidden md:flex"
             />
-            <div className="flex flex-col gap-y-4">
+            <div className="flex flex-col gap-y-2 md:gap-y-4">
               <div className="group flex flex-row items-center justify-start gap-x-4 text-[#ff8978]">
                 <div className="font-montserrat text-xl font-normal">
                   Pembayaran Platform
@@ -585,25 +590,25 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="h-full w-full bg-white px-[140px] py-[200px] pt-[280px]">
+      <div className="h-full w-full bg-white px-4 md:px-[140px] md:py-[200px] pt-24 md:pt-[280px] pb-48 md:pb-0">
         <div className="flex flex-col gap-y-8">
-          <div className="font-montserrat text-4xl font-bold leading-normal text-[#233659]">
+          <div className="font-montserrat text-3xl md:text-4xl font-semibold md:font-bold leading-normal text-[#233659]">
             Diliput oleh
           </div>
-          <div className="m-4 grid grid-cols-5">
-            <a href="#" className="h-[93.7px] w-[189.5px]">
+          <div className="md:m-4 grid grid-cols-3 grid-rows-2 md:grid-cols-5 gap-y-8 md:gap-y-0">
+            <a href="#" className="h-[57.38] w-[115.98px] md:h-[93.7px] md:w-[189.5px]">
               <img src="https://www.xendit.co/wp-content/uploads/2023/09/E27-1.webp" />
             </a>
-            <a href="#" className="h-[93.7px] w-[189.5px]">
+            <a href="#" className="h-[57.38] w-[115.98px] md:h-[93.7px] md:w-[189.5px]">
               <img src="https://www.xendit.co/wp-content/uploads/2023/09/Forbes-Indonesia-1.webp" />
             </a>
-            <a href="#" className="h-[93.7px] w-[189.5px]">
+            <a href="#" className="h-[57.38] w-[115.98px] md:h-[93.7px] md:w-[189.5px]">
               <img src="https://www.xendit.co/wp-content/uploads/2023/09/Kompas-logo-Xendit.webp" />
             </a>
-            <a href="#" className="h-[93.7px] w-[189.5px]">
+            <a href="#" className="h-[57.38] w-[115.98px] md:h-[93.7px] md:w-[189.5px]">
               <img src="https://www.xendit.co/wp-content/uploads/2023/09/Media-Indonesia-1.webp" />
             </a>
-            <a href="#" className="h-[93.7px] w-[189.5px]">
+            <a href="#" className="h-[57.38] w-[115.98px] md:h-[93.7px] md:w-[189.5px]">
               <img src="https://www.xendit.co/wp-content/uploads/2023/09/Tribunnews-com-1.webp" />
             </a>
           </div>
